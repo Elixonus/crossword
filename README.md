@@ -9,11 +9,11 @@ The algorithm makes sure that each word given is used once in the crossword.
 If the crossword with the given constraints is not able to be created, it will stop the program and alert the user.
 
 ## Features
-An answer key for the crossword with colored, highlighted letters is also generated.
+Answer key for the crossword with colored, highlighted letters generated as well.
 
-The crossword may contain diagonal and overlapping words.
+Crossword has a chance of containing diagonal or overlapping words.
 
-Prevents the user from making palindrome words to avoid confusion.
+Prevents the user from making palindrome words to avoid player confusion.
 
 ## Algorithm
 Uses the Monte Carlo method and encourages overlap of words by natural selection.
