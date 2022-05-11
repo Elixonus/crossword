@@ -1,6 +1,8 @@
 # crossword_puzzle_generator_JS :jigsaw:
 A tool for generating crossword puzzles instamagically.
 
+![Crossword Example](example.png)
+
 ## About
 Generates a specific size square crossword with the given words.
 
@@ -21,8 +23,3 @@ Uses the Monte Carlo method and encourages overlap of words by natural selection
 Has a limited number of iterations before the current configuration is given up and a new one is attempted.
 
 Every time the algorithm decides to place a word into the crossword, it cannot move it unless the algorithm is reinstantiated.
-
-## Example
-bat, cat, fat, mat, pat, rat, sat
-
-![Crossword Example](example.png)
