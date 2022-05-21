@@ -1,4 +1,4 @@
-# crossword_puzzle_generator_JS :jigsaw:
+# crossword_puzzle_generator_JS 🧩
 A tool for generating crossword puzzles instamagically.
 
 ![Crossword Example](example.png)
