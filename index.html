@@ -6,6 +6,9 @@
     </head>
     
     <body>
+        <h1>Crossword Puzzle Generator</h1>
+        <p id="sure">Not sure what to create? Use an example.</p>
+        <button onclick="loadExample();" id="load">Load Example</button>
         <p>Size of crossword</p>
         <input type="number" id="sizeInput" min="1">
         <br>
@@ -32,7 +35,7 @@
                 background-color: black;
             }
 
-            p
+            h1, p
             {
                 color: white;
             }
@@ -369,6 +372,14 @@
                     document.getElementsByClassName("hidden")[n].style.visibility = "hidden";
                     document.getElementsByClassName("hidden")[n].style.pointerEvents = "none";
                 }
+            }
+
+            function loadExample()
+            {
+                document.getElementById("sizeInput").value = 5;
+                document.getElementById("wordsInput").value = "cat, bat, sat, mat, rat";
+                document.getElementById("sure").remove();
+                document.getElementById("load").remove();
             }
             
         </script>
