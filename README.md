@@ -2,7 +2,7 @@
 
 A tool for generating crossword puzzles instamagically.
 
-![Crossword Example](example.png)
+![Crossword Example](./example.png)
 
 ## About
 
